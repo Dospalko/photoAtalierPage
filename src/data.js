@@ -34,46 +34,46 @@ import Avatar4Img from './assets/img/avatar-4.png';
 
 export const navigation = [
   {
-    name: 'home',
-    href: 'home',
+    name: 'domov',
+    href: 'domov',
   },
   {
-    name: 'about',
+    name: 'O nas',
     href: 'about',
   },
   {
-    name: 'features',
+    name: 'galeria',
     href: 'features',
   },
   {
-    name: 'contact',
-    href: 'contact',
+    name: 'kontakt',
+    href: '#contact',
   },
 ];
 
 export const hero = {
-  title: 'Creative Home Simpify your Furniture',
+  title: 'Fotenie ktore si zamilujete!',
   subtitle:
-    'Do i have consent to record this meeting gain locaion, root-and-branch, review, nor game plan who’s the goto',
-  buttonText: 'Shop Now',
+    'Odfotime vas alebo nieco pre vas podla vasho zaujmu.',
+  buttonText: 'Objednajte sa teraz!',
 };
 
 export const stats = [
   {
-    value: '7',
-    text: 'Year Experience',
+    value: '3',
+    text: 'Roky skusenosti',
   },
   {
-    value: '2',
-    text: 'Opened in the country',
+    value: '1',
+    text: 'Otvorene v mestach',
   },
   {
     value: '10k+',
-    text: 'Furniture sold',
+    text: 'Spokojnych zakaznikov',
   },
   {
     value: '260+',
-    text: 'Variant Furniture',
+    text: 'Roznych druhov ',
   },
 ];
 
@@ -106,9 +106,9 @@ export const features = {
 };
 
 export const newInStore = {
-  title: 'New In Store Now',
-  subtitle: 'Get the latest items immediately with promo prices',
-  link: 'Check all',
+  title: 'Najnovsie fotografie',
+  subtitle: 'Pridte sa odfotit uz dnes so zlavou.',
+  link: 'Cela galeria',
   icon: <IoIosArrowRoundForward />,
   products: [
     {
@@ -340,5 +340,5 @@ export const footer = {
       href: '#',
     },
   ],
-  copyright: 'FurniShop 2022 - All Rights Reserved.',
+  copyright: 'Photo atalier 2023 DevminikCo.',
 };
