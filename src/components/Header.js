@@ -45,7 +45,7 @@ const Header = () => {
             {mobileNav ? <CgClose /> : <CgMenuRight />}
           </div>
           {/* nav */}
-          <nav className='hidden md:flex'>
+          <nav className='hidden md:flex text-xl font-serif'>
             <ul className='md:flex md:gap-x-12'>
               {navigation.map((item, index) => {
                 return (

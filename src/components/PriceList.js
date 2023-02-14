@@ -16,6 +16,7 @@ const PriceList = () => {
             <div className="text-white">30 Fotiek - 10$</div>
             <div className="text-white">50 Fotiek - 10$</div>
           </div>
+        
           <div className="flex text-xl font-semibold flex-col gap-8 p-10 pt-0 xl:flex-row">
             <div className="text-white">10 fotiek - 10$</div>
             <div className="text-white">30 Fotiek - 10$</div>

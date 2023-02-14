@@ -131,9 +131,9 @@ export const newInStore = {
 };
 
 export const products = {
-  title: 'All Products',
+  title: 'Galeria',
   subtitle:
-    'The products we provide only for you as our service are selected from the best products with number 1 quality in the world',
+    'Nase fotky ktore sme nafotili!',
   pages: [
     {
       productList: [
