@@ -39,11 +39,11 @@ export const navigation = [
   },
   {
     name: 'O nas',
-    href: 'about',
+    href: '#about',
   },
   {
     name: 'galeria',
-    href: 'features',
+    href: '#gallery',
   },
   {
     name: 'kontakt',
@@ -263,19 +263,18 @@ export const footer = {
   social: [
     {
       icon: <IoMdMailOpen />,
+      text : 'email@mail.com',
       href: '#',
     },
     {
       icon: <IoIosContact />,
       href: '#',
-    },
-    {
-      icon: <IoLogoGithub />,
-      href: '#',
+      text : '0900000000',
     },
     {
       icon: <IoIosHome/>,
       href: '#',
+       text : 'Adresa 09401 Svidnik',
     },
   ],
   copyright: 'Photo atalier 2023 DevminikCo.',

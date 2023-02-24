@@ -10,7 +10,7 @@ import ProductSlider from './ProductSlider';
 const Products = () => {
   const { title, subtitle } = products;
   return (
-    <section className='section text-center'>
+    <section className='section text-center' id='gallery' >
       <div className='container mx-auto'>
         <div>
           <h2 className='title'>{title}</h2>

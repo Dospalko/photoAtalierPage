@@ -2,7 +2,7 @@ import React from "react";
 
 const PriceList = () => {
   return (
-    <section className=" bg-[hsl(200,58%,18%)] bg-opacity-15 container mx-auto pb-20 mb-10 overflow-hidden ">
+    <section className=" bg-[hsl(200,11%,15%)] bg-opacity-15 container mx-auto pb-20 mb-10 overflow-hidden ">
       <div className="flex flex-col text-white justify-between ">
         <div className="mb-2 mt-12 text-center">
           <h1 className="mb-4 text-7xl font-semibold">Cennik</h1>

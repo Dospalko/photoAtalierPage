@@ -23,16 +23,20 @@ const Footer = () => {
           </a>
           </div>
         
-          <div className='flex  gap-x-4'>
+          <div className='flex flex-col items-center justify-center text-center  gap-x-4'>
             {footer.social.map((item, index) => {
               return (
                 <div
-                  className='w-12 h-12 text-2xl bg-gray-700 hover:bg-accent rounded-full flex justify-center items-center transition-all'
+                  className=' text-xl m-2 w-[250px] flex flex-row text-center mx-auto my-auto justify-center items-center transition-all'
                   key={index}
                 >
-                  <a href='#'>{item.icon}</a>
+                    <a className='ml-4'>{item.icon}</a>
+                  <p className='mx-auto'>{item.text}</p>
+                
+                  
                   
                 </div>
+                
               );
             })}
           </div>

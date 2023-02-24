@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Saira',
-      Ubuntu : 'Ubuntu',
+     
     },
     container: {
       padding: {
@@ -31,7 +31,7 @@ module.exports = {
         pink: 'pink',
       },
       backgroundImage: {
-        hero: 'url("/src/assets/img/hero-bg.png")',
+        hero: 'url("/src/assets/img/photo1.jpg")',
         newsletter: 'url("/src/assets/img/newsletter.png")',
       },
       dropShadow: {
