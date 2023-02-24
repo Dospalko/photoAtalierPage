@@ -14,7 +14,7 @@ const NewItems = () => {
   <h2 className='title flex text-center items-center justify-center   lg:mb-[40px]' >
           O nás
   </h2>
-  <p className='text-justify mb-10 text-2xl leading-10'>
+  <p className='md:text-justify mb-10 text-2xl leading-10'>
   Sme profesionálne fotoštúdio so skúsenými  fotografmi ktorý Vám vedia ponúknuť kvalitné produktové fotografie na vaše web stránky s bielym pozadím.
   </p>
   <h2 className='title flex text-center items-center justify-center   lg:mb-[40px]' >
@@ -23,7 +23,7 @@ const NewItems = () => {
     <div className='flex flex-col lg:flex-row'>
    
       {/* text */}
-      <div className='flex flex-col flex-wrap text-2xl leading-10 text-justify   gap-x-6 mb-6 lg:mb-0'>
+      <div className='flex flex-col flex-wrap text-2xl leading-10 md:text-justify text-left   gap-x-6 mb-6 lg:mb-0'>
        
         <p className=' lg:mb-12'>
         Zameriavame sa na vytvorenie produktových  fotografii s bielym pozadím.  Máme k dispozícii grafikov ,ktorí Vám upravia pozadie podľa vašich predstáv. V prípade záujmu Vám zašleme formulár ohľadom vašich požiadaviek  ,ktorý zjednoduší našu spoluprácu. Po spracovaní  dotazníka, Vám odošleme e-mail v ktorom sa bude nachádzať adresa na odoslanie produktov.  Po uhradení  faktúry, ktorá Vám bude takisto zaslaná na e-mail následne produkty odošleme na Vami uvedenú adresu.
