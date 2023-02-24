@@ -18,8 +18,9 @@ const Footer = () => {
           <a className='mb-6 lg:mb-0 lg:text-xl font-bold'>
            Ochrana osobných údajov
           </a>
+        
           <a className='mb-6 underline lg:mb-0 lg:text-xl font-bold'>
-           Formulár k objednávke
+           Obchodné podmienky
           </a>
           </div>
         
