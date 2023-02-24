@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Saira',
+      'sans': ['Helvetica', 'Arial', 'sans-serif'],
      
     },
     container: {

@@ -9,8 +9,14 @@ const NewItems = () => {
 
   const {title,subtitle,link, icon} = newInStore;
 
-  return <section className='section relative overflow-hidden lg:min-h-[540px] primary' id='about'>
+  return <section className='section relative overflow-hidden lg:min-h-[540px] primary sans font-sans' id='about'>
   <div className='container mx-auto'>
+  <h2 className='title flex text-center items-center justify-center   lg:mb-[40px]' >
+          O nás
+  </h2>
+  <p className='text-justify mb-10 text-2xl leading-10'>
+  Sme profesionálne fotoštúdio so skúsenými  fotografmi ktorý Vám vedia ponúknuť kvalitné produktové fotografie na vaše web stránky s bielym pozadím.
+  </p>
   <h2 className='title flex text-center items-center justify-center   lg:mb-[40px]' >
           Info
   </h2>
