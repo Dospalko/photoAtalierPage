@@ -35,7 +35,7 @@ import Product10Img from './assets/img/products/pilka1.jpg';
 export const navigation = [
   {
     name: 'domov',
-    href: 'domov',
+    href: '#domov',
   },
   {
     name: 'O nas',
