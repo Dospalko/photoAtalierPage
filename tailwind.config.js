@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Saira',
+      Ubuntu : 'Ubuntu',
     },
     container: {
       padding: {

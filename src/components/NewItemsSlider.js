@@ -20,15 +20,7 @@ const NewItemsSlider = () => {
       
     }
   }}>
-    {newInStore.products.map((product,index)=>{
-      return <SwiperSlide className='max-w-[265px]' key={index}>
-        <div className='relative'>
-          <img src={product.image.type} alt='foto'/>
-          <div className='absolute text-white bottom-[20px] w-full text-center text-[19px] lg:text-2xl font-medium capitalize'>{product.name}</div>
-
-        </div>
-        </SwiperSlide>
-    })}
+  
   </Swiper>;
 };
 

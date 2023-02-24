@@ -35,7 +35,7 @@ const Header = () => {
         <div className='flex justify-between items-center'>
           {/* logo */}
           <a href='#' className='text-white text-2xl font-semibold '>
-            PhotoAtalier
+            Nafocime
           </a>
           {/* menu icon */}
           <div

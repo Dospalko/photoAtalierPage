@@ -11,10 +11,19 @@ const Footer = () => {
     <footer className='section h-[300px]  bg-primary text-white'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-between border-b border-opacity-75 border-gray-700 pb-7 lg:pb-14 mb-14'>
-          <a className='mb-6 lg:mb-0 lg:text-3xl font-bold' id='contact'>
-           Photo atalier
+          <div className='flex flex-col'>
+          <a className='mb-6 lg:mb-10 lg:text-3xl font-bold' id='contact'>
+           Nafocime
           </a>
-          <div className='flex gap-x-4'>
+          <a className='mb-6 lg:mb-0 lg:text-xl font-bold'>
+           Ochrana osobných údajov
+          </a>
+          <a className='mb-6 underline lg:mb-0 lg:text-xl font-bold'>
+           Formulár k objednávke
+          </a>
+          </div>
+        
+          <div className='flex  gap-x-4'>
             {footer.social.map((item, index) => {
               return (
                 <div
@@ -22,6 +31,7 @@ const Footer = () => {
                   key={index}
                 >
                   <a href='#'>{item.icon}</a>
+                  
                 </div>
               );
             })}

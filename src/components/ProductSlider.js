@@ -27,7 +27,7 @@ const ProductSlider = () => {
       {pages.map((page, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className='grid grid-cols-2 gap-x-5 md:grid-cols-3 lg:grid-cols-4 lg:gap-[30px]'>
+            <div className='grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-3 mb-40 lg:grid-cols-4 lg:gap-[50px]'>
               {page.productList.map((product, index) => {
                 const { image, name} = product;
                 return (
@@ -35,7 +35,7 @@ const ProductSlider = () => {
                     className='w-full max-w-[290px] h-[380px] text-left'
                     key={index}
                   >
-                    <div className='border shadow-md transition-all hover:border-accent rounded-[18px] w-full max-w-[285px] h-full max-h-[292px] flex items-center justify-center mb-[15px] relative duration-300'>
+                    <div className='border shadow-md transition-all bg-[#f0f0f2] hover:border-accent rounded-[18px] w-full max-w-[285px] h-full max-h-[400px] flex items-center justify-center   relative duration-300'>
                       <a href={image.type}>
                       <img src={image.type} alt='' />
                       </a>
